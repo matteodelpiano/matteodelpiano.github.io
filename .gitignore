@@ -44,3 +44,6 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# _site after quarto publish
+_site/
