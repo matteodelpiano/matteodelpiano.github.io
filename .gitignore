@@ -1,8 +1,46 @@
-.Rproj.user
+# R
+.Rproj.user/
 .Rhistory
 .RData
 .Ruserdata
+.Rapp.history
+.RDataTmp
 
+# Quarto
 /.quarto/
 **/*.quarto_ipynb
+
+# macOS
 .DS_Store
+
+# Example code in package build process
+*-Ex.R
+
+# Output files from R CMD build/check
+/*.tar.gz
+/*.Rcheck/
+
+# Vignettes
+vignettes/*.html
+vignettes/*.pdf
+
+# OAuth2 token
+.httr-oauth
+
+# knitr / R Markdown cache
+*_cache/
+/cache/
+*.utf8.md
+*.knit.md
+
+# R environment variables
+.Renviron
+
+# pkgdown site (non usato con Quarto, ma innocuo)
+docs/
+
+# translation temp files
+po/*~
+
+# RStudio Connect folder
+rsconnect/
