@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I am an empirical economist. I work in migration economics and labor using methodologies drawn from applied microeconomics.\nI’m a second year PhD student in Economics and Finance at University of Trento and Free University of Bolzano. I will be visiting Universidad de Madrid Carlos III in spring hosted by Prof. Luigi Minale.\nMy work is tied to migration economics. In my PhD thesis I have studied differentials in mobility for migrants of different generations in the US looking at different mobility outcomes. I am also analyzing the impact of an enforcement policy on the growth and welfare of migrant enclaves in specific communities, in a causal framework."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Working paper\n\n\n\nThis paper studies differences in internal mobility across migrant generations using data from the CPS ASEC. I estimate a linear probability model and find that first-generation migrants are on average more mobile across states while second-generation migrants are indistinguishable from natives. Second-generation migrants are less mobile in short- to medium-distance movements. This has important labor market implications because of migrants’ role in wages and welfare in local labor markets and their contribution to smoothing local demand shocks. These average patterns mask substantial heterogeneity both in terms of workers’ ethnicity and skill level; within these two dimensions, estimates provide evidence for different mobility gradients. With the addition of a gravity model, I document that dyadic geographical characteristics, destination specific features, and the ethnic composition of the corridor are significant predictors of migration flows within each origin-destination pair.\n\nWorking paper\n\n\n\n\n\n\nWork in progress"
+  },
+  {
+    "objectID": "research.html#working-papers",
+    "href": "research.html#working-papers",
+    "title": "Research",
+    "section": "",
+    "text": "Working paper\n\n\n\nThis paper studies differences in internal mobility across migrant generations using data from the CPS ASEC. I estimate a linear probability model and find that first-generation migrants are on average more mobile across states while second-generation migrants are indistinguishable from natives. Second-generation migrants are less mobile in short- to medium-distance movements. This has important labor market implications because of migrants’ role in wages and welfare in local labor markets and their contribution to smoothing local demand shocks. These average patterns mask substantial heterogeneity both in terms of workers’ ethnicity and skill level; within these two dimensions, estimates provide evidence for different mobility gradients. With the addition of a gravity model, I document that dyadic geographical characteristics, destination specific features, and the ethnic composition of the corridor are significant predictors of migration flows within each origin-destination pair.\n\nWorking paper\n\n\n\n\n\n\nWork in progress"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "T.A. Data Analysis and Statistics\nProf. Marco Bee, University of Trento; spring 25/26."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Matteo del Piano",
+    "section": "",
+    "text": "PhD Candidate · Economics & Finance\n\n\n\nMy name is Matteo del Piano and I am a 2nd year PhD student in Economics and Finance at Free University of Bolzano and Unviersity of Trento.\nIn this website you can find more about my ongoing research and interests!"
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Matteo del Piano",
+    "section": "",
+    "text": "My name is Matteo del Piano and I am a 2nd year PhD student in Economics and Finance at Free University of Bolzano and Unviersity of Trento.\nIn this website you can find more about my ongoing research and interests!"
+  }
+]

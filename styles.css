@@ -1,0 +1,287 @@
+/* ============================================================
+   Matteo del Piano — tema custom (ispirato a OpenAI)
+   Sovrascrive il tema Bootstrap "cosmo" di Quarto.
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --accent: oklch(50% 0.13 250);       /* cambia solo questa per un altro colore */
+  --accent-soft: color-mix(in oklch, var(--accent) 8%, white 92%);
+  --accent-border: color-mix(in oklch, var(--accent) 25%, white 75%);
+  --ink: #0e0e0c;
+  --body: #3d3c37;
+  --muted: #8a887f;
+  --line: #e7e5df;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  color: var(--body);
+  background: #ffffff;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { color: color-mix(in oklch, var(--accent) 80%, black 20%); }
+
+h1, h2, h3, h4 {
+  font-family: 'Inter', system-ui, sans-serif;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  font-weight: 700;
+}
+
+/* ---------- Navbar ---------- */
+.navbar {
+  background: rgba(255,255,255,0.86) !important;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--line);
+  box-shadow: none !important;
+}
+.navbar-brand {
+  font-weight: 700;
+  color: var(--ink) !important;
+  letter-spacing: -0.01em;
+}
+.navbar .nav-item {
+  margin-right: 16px;
+}
+.navbar .nav-link {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--ink) !important;
+  padding-bottom: 4px;
+  border-bottom: 2px solid transparent;
+  transition: color 0.2s, border-color 0.2s;
+}
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: var(--accent) !important;
+  border-bottom-color: var(--accent);
+}
+
+/* ---------- Layout base ---------- */
+#quarto-content { max-width: 2000px; margin: 0 auto; }
+#quarto-document-content,
+.content { padding-top: 56px; padding-bottom: 60px; }
+
+/* fade-in leggero al caricamento */
+@keyframes fadeInUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+.content > * { animation: fadeInUp 0.5s ease both; }
+
+/* ---------- Home: foto + intro ---------- */
+.profile-img {
+  display: block;
+  width: 80%;
+  max-width: 220px;
+  height: auto;
+  border-radius: 33px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.10);
+  margin: 0;
+}
+
+div.columns.profile-layout {
+  display: grid !important;
+  grid-template-columns: 280px 1fr;
+  gap: 0.1rem;
+  align-items: start;
+}
+
+div.columns.profile-layout > .column {
+  width: auto !important;
+  min-width: 0;
+  overflow: visible;
+}
+
+div.columns.profile-layout > .column > p:first-child {
+  margin: 0;
+}
+
+.eyebrow {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 10px;
+}
+
+/* ---------- Card grid (Affiliation / Research focus) ---------- */
+.affiliation-banner{
+  margin-top: 1.25rem;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin: 30px 0 40px;
+}
+.info-card {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 24px;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.info-card:hover {
+  box-shadow: 0 12px 28px rgba(0,0,0,0.08);
+  transform: translateY(-2px);
+}
+.info-card .label {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+.info-card p { margin: 0; font-size: 14.5px; line-height: 1.6; }
+
+.wip{
+    display:inline-block;
+    margin-top:0.9rem;
+    padding:0.25rem 0.7rem;
+    font-size:.82rem;
+    font-weight:600;
+    color:#666;
+    background:#eef1f5;
+    border-radius:999px;
+}
+
+/* ---------- Job market paper banner ---------- */
+.jmp-banner {
+  background: var(--accent-soft);
+  border: 1px solid var(--accent-border);
+  border-radius: 14px;
+  padding: 30px 34px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 20px;
+}
+
+.jmp-banner > div {
+  flex: 1;
+}
+
+.jmp-banner .label { color: var(--accent); }
+.jmp-banner p { max-width: 480px; margin: 0; font-size: 15px; }
+
+/* ---------- Buttons ---------- */
+.btn-accent {
+  flex-shrink: 0;
+  background: var(--accent);
+  color: #fff !important;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 12px 22px;
+  border-radius: 8px;
+  transition: background 0.2s;
+  display: inline-block;
+}
+.btn-accent:hover { background: color-mix(in oklch, var(--accent) 82%, black 18%); }
+
+.btn-outline {
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--ink) !important;
+  padding: 8px 16px;
+  border-radius: 7px;
+  border: 1px solid #d8d6cf;
+  transition: border-color 0.2s;
+  display: inline-block;
+}
+.btn-outline:hover { border-color: var(--ink); }
+
+/* ---------- Contatti ---------- */
+.contact-links {
+  border-top: 1px solid var(--line);
+  padding-top: 32px;
+  margin-top: 20px;
+}
+/* Quarto avvolge i link markdown in un <p>: il flex va applicato lì, non sul div */
+.contact-links p {
+  display: flex;
+  gap: 28px;
+  flex-wrap: wrap;
+  margin: 0;
+}
+.contact-links a {
+  color: var(--body) !important;
+  font-size: 14.5px;
+  font-weight: 500;
+  border-bottom: 1px solid transparent;
+  transition: color 0.2s, border-color 0.2s;
+}
+.contact-links a:hover { color: var(--accent) !important; border-color: var(--accent); }
+
+/* ---------- Research: righe paper con anteprima ---------- */
+.paper-row {
+  display: grid;
+  grid-template-columns: 170px 1fr;
+  gap: 28px;
+  padding: 30px 0;
+  border-bottom: 1px solid var(--line);
+}
+.paper-thumb {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: 0 10px 26px rgba(0,0,0,0.10);
+}
+.paper-thumb-placeholder {
+  width: 100%;
+  height: 220px;
+  border: 1.5px dashed #d8d6cf;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #a3a196;
+  font-size: 11px;
+  font-family: ui-monospace, monospace;
+  text-align: center;
+  padding: 12px;
+}
+.stage-tag {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--accent);
+  margin-bottom: 8px;
+}
+.paper-row h3 {
+  font-size: 19px;
+  margin: 0 0 10px;
+  line-height: 1.35;
+}
+.paper-row p { font-size: 14.5px; line-height: 1.65; margin: 0 0 14px; }
+.paper-actions p { display: flex; gap: 18px; align-items: center; flex-wrap: wrap; margin: 0; }
+
+/* ---------- Placeholder generico (es. Teaching) ---------- */
+.coming-soon {
+  border: 1.5px dashed #d8d6cf;
+  border-radius: 12px;
+  padding: 60px 24px;
+  text-align: center;
+  color: var(--muted);
+  font-size: 14.5px;
+}
+
+@media (max-width: 767.98px) {
+  div.columns.profile-layout {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+  }
+
+  .profile-img {
+    max-width: 320px;
+  }
+
+  .info-grid { grid-template-columns: 1fr; }
+  .paper-row { grid-template-columns: 1fr; }
+  .jmp-banner { flex-direction: column; align-items: flex-start; }
+}
