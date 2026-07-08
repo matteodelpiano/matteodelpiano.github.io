@@ -12,7 +12,7 @@ title: ""
 <div class="eyebrow">PhD Candidate · Economics &amp; Finance</div>
 
 ## Welcome
-My name is Matteo del Piano and I am a 2nd year PhD student in Economics and Finance at Free University of Bolzano and Unviersity of Trento.
+My name is Matteo del Piano and I am a 2nd year PhD student in Economics and Finance at Free University of Bolzano and University of Trento.
 
 In this website you can find more about my ongoing research and interests!
 :::
