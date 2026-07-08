@@ -1,0 +1,25 @@
+project:
+  type: website
+
+website:
+  title: "Matteo del Piano"
+  navbar:
+    right:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: teaching.qmd
+        text: Teaching
+      - href: about.qmd
+        text: About
+
+
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+

@@ -1,0 +1,9 @@
+---
+title: "About"
+---
+
+I am an empirical economist. I work in migration economics and labor using methodologies drawn from applied microeconomics.
+
+I'm a second year PhD student in Economics and Finance at University of Trento and Free University of Bolzano. I will be visiting Universidad de Madrid Carlos III in spring hosted by Prof. Luigi Minale.
+
+My work is tied to migration economics. In my PhD thesis I have studied differentials in mobility for migrants of different generations in the US looking at different mobility outcomes. I am also analyzing the impact of an enforcement policy on the growth and welfare of migrant enclaves in specific communities, in a causal framework.

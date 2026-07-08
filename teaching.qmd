@@ -1,0 +1,10 @@
+---
+title: "Teaching"
+format: html
+---
+
+
+### **T.A. Data Analysis and Statistics** 
+*Prof. Marco Bee, University of Trento; spring 25/26.*
+
+

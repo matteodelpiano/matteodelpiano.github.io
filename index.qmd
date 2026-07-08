@@ -1,0 +1,73 @@
+---
+title: ""
+---
+
+::: {.columns .profile-layout}
+
+::: {.column width="25%"}
+![](images/DSCF7669.jpg){.profile-img}
+:::
+
+::: {.column width="75%"}
+<div class="eyebrow">PhD Candidate · Economics &amp; Finance</div>
+
+## Welcome
+My name is Matteo del Piano and I am a 2nd year PhD student in Economics and Finance at Free University of Bolzano and Unviersity of Trento.
+
+In this website you can find more about my ongoing research and interests!
+:::
+
+:::
+
+:::{.jmp-banner .affiliation-banner}
+<div>
+<div class="label">Affiliation</div>
+Free University of Bozen-Bolzano · University of Trento
+
+<br>
+
+**Visiting PhD Student**
+
+Universidad Carlos III de Madrid
+
+(Oct 2026 – Apr 2027)
+</div>
+
+:::
+
+::: {.info-grid}
+::: {.info-card}
+<div class="label">Curriculum Vitae</div>
+
+[Download latest CV version ->](doc/Matteo_CV.pdf){.btn-accent}
+:::
+
+::: {.info-card}
+<div class="label">Research focus</div>
+
+Mobility differentials across migrant generations, and enforcement policy effects on ethnic enclaves.
+:::
+:::
+
+
+:::{.jmp-banner}
+
+<div>
+
+<div class="label">Job market paper</div>
+
+**The impact of Secure Communities on ethnic enclaves in United States communities**
+
+<span class="wip">Work in progress</span>
+
+</div>
+
+:::
+
+
+::: {.contact-links}
+[Email](mailto:matteodelpiano@yahoo.com)
+[LinkedIn](https://www.linkedin.com/in/matteodelpiano/)
+[X](https://x.com/matteodelpiano)
+[Substack](https://substack.com/@matteodelpiano1999)
+:::
