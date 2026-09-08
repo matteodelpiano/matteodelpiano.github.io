@@ -6,17 +6,21 @@ format: html
 ## Working papers
 
 ::: {.paper-row}
-![](images/cover generational.png){.paper-thumb}
+![](images/cover image 1stvs2nd.png){.paper-thumb}
 
 <div>
 <div class="stage-tag">Working paper</div>
 
-### Generational difference in internal migration
+### Mobility Assimilation across Spatial Scales: Evidence from U.S. Immigrant Generations
 
-This paper studies differences in internal mobility across migrant generations using data from the CPS ASEC. I estimate a linear probability model and find that first-generation migrants are on average more mobile across states while second-generation migrants are indistinguishable from natives. Second-generation migrants are less mobile in short- to medium-distance movements. This has important labor market implications because of migrants' role in wages and welfare in local labor markets and their contribution to smoothing local demand shocks. These average patterns mask substantial heterogeneity both in terms of workers' ethnicity and skill level; within these two dimensions, estimates provide evidence for different mobility gradients. With the addition of a gravity model, I document that dyadic geographical characteristics, destination specific features, and the ethnic composition of the corridor are significant predictors of migration flows within each origin-destination pair.
+Using CPS ASEC microdata and ACS state-level data, this paper examines how internal mobility varies across immigrant generations and geographic margins. First-generation respondents are more likely to move across states, whereas second-generation respondents resemble those with US-born parents on average but are less mobile at finer geographic scales. 
+This average similarity masks heterogeneity by parental nativity: interstate mobility is lower among respondents with two foreign-born parents and higher among those with exactly one.
+Conditional on interstate migration, high-skilled second-generation flows exhibit weaker distance decay than native-parentage flows, indicating broader geographic reach despite similar mobility rates. 
+PPML gravity estimates show that immigrant and co-origin presence are positively associated with destination choice across immigrant generations, but co-origin presence does not attenuate distance decay. 
+Thus, immigrant assimilation differs across the propensity, distance, and destination margins of spatial mobility.
 
 ::: {.paper-actions}
-[Working paper](papers/WP_1st_vs_2nd_generation.pdf){.btn-outline}
+[Working paper](papers/WP_1stvs2nd_generation.pdf){.btn-outline}
 :::
 </div>
 :::
